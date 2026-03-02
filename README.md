@@ -128,7 +128,6 @@ POST https://www.figma.com/board/1ikMbMOjL8GRUHpV7vqxf0/Untitled?node-id=0-1&p=f
 - CI (GitHub Actions): build + test på Pull Requests
 - CD (GitHub Actions):- CD: deploy till Elastic Beanstalk när PR mergas till `main`
 - Fullstack: exempel på frontend build/test/deploy + backend build/test/deploy
-- pull merge
 
 
 
