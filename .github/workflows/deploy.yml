@@ -12,7 +12,7 @@ jobs:
       EB_APPLICATION_NAME: crypto-cicd-api-csharp-prod
       EB_ENVIRONMENT_NAME: Crypto-cicd-api-csharp-prod-env
 
-      # Viktigt: unikt per körning + per rerun
+      # Unikt per körning
       EB_VERSION_LABEL: ${{ github.sha }}-${{ github.run_number }}-${{ github.run_attempt }}
       EB_S3_KEY: deploy-${{ github.sha }}-${{ github.run_number }}-${{ github.run_attempt }}.zip
 
